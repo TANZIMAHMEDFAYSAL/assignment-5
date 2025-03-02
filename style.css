@@ -1,0 +1,35 @@
+/* navbar */
+
+body{
+    background-color: rgb(204, 198, 198);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    padding: 20px;
+    /* margin: 30px; */
+
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.navbar-left h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.rigth-design{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.rigth-design h1{
+    margin-left: 10px;
+}
