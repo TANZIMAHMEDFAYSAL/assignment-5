@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     border: 2px solid red;
     padding: 20px;
+    margin-bottom: 50px;
     /* margin: 30px; */
 
 }
@@ -32,4 +33,141 @@ nav{
 }
 .rigth-design h1{
     margin-left: 10px;
+}
+
+/* .........close navbar................... */
+
+
+/* main body */
+main{
+    display: flex;
+}
+
+.section-left{
+    border: 2px solid green;
+    width: 70%;
+    margin-right: 10px;
+}
+.upper-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.div-part-1{
+    border:2px solid red;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.div-part-1 img{
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.div-part-1 h5{
+    margin-bottom: 0;
+}
+.div-part-1 h1{
+    margin-top: 0;
+}
+
+/* upper 1 close */
+
+.div-part-2{
+    display: flex;
+    align-items: center;
+    border:2px solid red;
+    width: 400px;
+    margin-right: 10px;
+    background-image: linear-gradient(to right bottom,   blue 0%,rgb(122, 185, 226) 120%);
+    /* background-image: linear-gradient(to right, red 50%, yellow 100%); */
+}
+/* upper-2 close */
+.div-part-3{
+    display: flex;
+    align-items: center;
+    border:2px solid red;
+    width: 400px;  
+}
+.div-part-3 img{
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.div-part-3 h1{
+    margin-bottom: 0;
+}
+.div-part-3 h2{
+    margin-top: 0;
+}
+.child-right{
+    border: 2px solid red;
+    width: 40%;
+    height: 800px;
+    text-align: center;
+}
+.div-right-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-right-1 img{
+    margin-right: 10px;
+}
+.div-right-1 h1{
+    font-size: 28px;
+}
+.div-right-2 button{
+    background-color: blue;
+    width: 200px;
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-top: 50px;
+    
+}
+.card{
+ border:2px solid rgb(119, 0, 255);
+ padding-left: 10px;
+ width: auto;
+ border-radius: 5px;
+}
+.card p{
+    color: rgb(151, 149, 149);
+}
+.card h1{
+    font-size: 25px;
+}
+.lower-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lower-part h4{
+    margin-bottom: 0;
+    color: rgb(102, 94, 94);
+
+}
+.lower-part h1{
+    margin-top: 0;
+    font-size: 20px;
+}
+.lower-part button{
+    width: 120px;
+    font-size: 22px;
+    margin-right: 15px;
+    text-transform: capitalize;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+   
 }
