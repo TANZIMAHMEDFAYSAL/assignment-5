@@ -45,7 +45,7 @@ main{
 
 .section-left{
     border: 2px solid green;
-    width: 70%;
+    width: 80%;
     margin-right: 10px;
 }
 .upper-container{
@@ -101,7 +101,7 @@ main{
 }
 .child-right{
     border: 2px solid red;
-    width: 40%;
+    width: 20%;
     height: 800px;
     text-align: center;
 }
