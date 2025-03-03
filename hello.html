@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        /* border: 1px solid grey; */
+        align-items: center;
+        padding: 10px;
+
+    }
+    .left-nav{
+        display: flex;
+        align-items: center;
+
+    }
+    .left-nav img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .btn-last{
+        font-size: 30px;
+        background-color: blue;
+        border: none;
+        border-radius: 8px;
+        padding: 5px;
+       
+
+    }
+    .btn-last a{
+        color: white;
+        text-decoration: none;
+    }
+</style>
+
 </head>
 <body>
+
+<header>
+    <nav>
+        <div class="left-nav">
+            <div><img src="assets/logo.png" alt=""></div>
+            <h1>DevBoard</h1>
+        </div>
+        <div>
+            <button class="btn-last" ><a href="index.html">Back to Desk</a></button>
+        </div>
+    </nav>
+</header>
+
   <h1> Question-1: What are the different ways to select an element in the DOM?</h1>
 
   <p>ANSWER: we can select an element by 5 different way. this way . this way is 
