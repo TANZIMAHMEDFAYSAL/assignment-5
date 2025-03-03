@@ -12,9 +12,21 @@ document.getElementById('them').addEventListener('click',function(){
 
 })
 
-const newtab= document.getElementById('newtab');
+const update= document.getElementById('div-part-3');
+date.addEventListener('mouseover',function(){
+
+  const olddate= document.getElementById('currentdate');
+
+  const news = new Date();
+  const dates= news.toLocaleDateString();
+  const makedate= document.createElement('span');
+  makedate.innerText=dates;
 
 
+  olddate.appendChild(makedate);
+  document.getElementById('date').style.display='none';
+  
+})
 
 
 // ..................... button-1
