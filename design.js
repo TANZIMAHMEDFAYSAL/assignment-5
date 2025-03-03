@@ -1,6 +1,6 @@
 // body color
 
-var colors=['red','blue','crimeson','yellow','bisque']
+var colors=['darksalmon','darkseagreen','darkturquoise','ivory','khaki']
 
 var sum= 0;
 
@@ -25,7 +25,7 @@ const complete = document.getElementById('completed-1');
 
 complete.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+   alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -81,7 +81,7 @@ const complete2 = document.getElementById('completed-2');
 
 complete2.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+  alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -135,7 +135,7 @@ const complete3 = document.getElementById('completed-3');
 
 complete3.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+  alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -189,7 +189,7 @@ const complete4 = document.getElementById('completed-4');
 
 complete4.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+  alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -243,7 +243,7 @@ const complete5 = document.getElementById('completed-5');
 
 complete5.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+  alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -296,7 +296,7 @@ const complete6 = document.getElementById('completed-6');
 
 complete6.addEventListener('click',function(){
 
-   alert('amar sonar bangla');
+  alert('Board updated successfully');
 
    const amount1=document.getElementById('amount-1')
    const amountvalue= amount1.innerText;
@@ -340,7 +340,7 @@ complete6.setAttribute("disabled",true);
 complete6.style.opacity = '0.5';
 
 if(sum==0){
-  alert('tanzim ahmed faysal');
+  alert('congrates!!! you have completed all the current task');
 }
 
 
