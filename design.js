@@ -12,6 +12,11 @@ document.getElementById('them').addEventListener('click',function(){
 
 })
 
+const newtab= document.getElementById('newtab');
+
+
+
+
 // ..................... button-1
 
 var number=1;

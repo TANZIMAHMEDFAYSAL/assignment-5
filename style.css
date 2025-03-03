@@ -80,7 +80,11 @@ main{
     width: 400px;
     margin-right: 10px;
     background-image: linear-gradient(to right bottom,   blue 0%,rgb(122, 185, 226) 120%);
-    /* background-image: linear-gradient(to right, red 50%, yellow 100%); */
+     
+}
+.div-part-2 a{
+    color: white;
+    text-decoration: none;
 }
 /* upper-2 close */
 .div-part-3{
